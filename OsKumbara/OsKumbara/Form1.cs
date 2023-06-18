@@ -175,7 +175,7 @@ namespace OsKumbara
             Degerler.Add(ekleme);
 
             toplamHacim = TotalHacim();
-            double Volume = 8000;
+            double Volume = 50000;
             if (toplamHacim > Volume)
             {
                 MessageBox.Show("Kumbara Hacmi Doldu, Artık Para Atamazsınız.");
